@@ -14,7 +14,7 @@ Unprocessed RAW data is a highly valuable image format for image editing and com
 >  Yazhou Xing*, Zian Qian*, Qifeng Chen <br>
 >  HKUST <br>
 
-[[Paper](https://github.com/yzxing87/Invertible-ISP)] 
+[[Paper](https://arxiv.org/abs/2103.15061)] 
 [[Project Page](https://yzxing87.github.io/InvISP/index.html)]
 [[Technical Video (Coming soon)](https://yzxing87.github.io/TBA)]
 
