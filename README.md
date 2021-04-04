@@ -15,7 +15,7 @@ Unprocessed RAW data is a highly valuable image format for image editing and com
 >  HKUST <br>
 
 [[Paper](https://arxiv.org/abs/2103.15061)] 
-[[Project Page](https://yzxing87.github.io/InvISP/index.htm)]
+[[Project Page](https://yzxing87.github.io/InvISP/index.html)]
 [[Technical Video (Coming soon)](https://yzxing87.github.io/TBA)]
 
 ![](./figures/result_01.png)
