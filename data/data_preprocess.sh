@@ -9,6 +9,6 @@ mkdir $dir_canon
 fi
 wget -P./NIKON_D700/DNG -i NIKON_D700.txt
 wget -P./Canon_EOS_5D/DNG -i Canon_EOS_5D.txt
-python data_preprocess.py
-python data_preprocess.py --camera="Canon_EOS_5D"
+# python data_preprocess.py
+# python data_preprocess.py --camera="Canon_EOS_5D"
 
