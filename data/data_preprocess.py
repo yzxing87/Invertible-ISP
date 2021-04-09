@@ -5,6 +5,7 @@ import colour_demosaicing
 import imageio
 import argparse
 from PIL import Image as PILImage
+import scipy.io as scio
 
 parser = argparse.ArgumentParser(description="data preprocess")
 
@@ -38,7 +39,7 @@ def flip(raw_img, flip):
 
 
 
-for path in all_data:
+for path in dng_path:
     print("Start Processing %s" % os.path.basename(path))
     raw = rawpy.imread(path)
     file_name = path.split('/')[-1].split('.')[0]
