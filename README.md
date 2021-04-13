@@ -109,4 +109,4 @@ Original RAW images are too huge to be directly tested on one 2080 Ti GPU. We pr
 Part of the codes benefit from [DiffJPEG](https://github.com/mlomnitz/DiffJPEG) and [Invertible-Image-Rescaling](https://github.com/pkuxmq/Invertible-Image-Rescaling). 
 
 ## Contact
-Free feel to contact me if there is any question. (Yazhou Xing, yzxing87@gmail.com)
+Feel free to contact me if there is any question. (Yazhou Xing, yzxing87@gmail.com)
