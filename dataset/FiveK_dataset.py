@@ -113,10 +113,10 @@ class FiveKDatasetTest(BaseDataset):
         input_raw_img = input_raw_img * wb[:-1]   
 
         if self.gamma:            
-            norm_value = np.power(4095, 1/2.2) if self.camera_name=='Canon EOS 5D' else np.power(16383, 1/2.2)            
+            norm_value = np.power(4095, 1/2.2) if self.camera_name=='Canon_EOS_5D' else np.power(16383, 1/2.2)            
             input_raw_img = np.power(input_raw_img, 1/2.2)             
         else:
-            norm_value = 4095 if self.camera_name=='Canon EOS 5D' else 16383
+            norm_value = 4095 if self.camera_name=='Canon_EOS_5D' else 16383
 
         target_rgb_img = self.norm_img(target_rgb_img, max_value=255)
         input_raw_img = self.norm_img(input_raw_img, max_value=norm_value)   

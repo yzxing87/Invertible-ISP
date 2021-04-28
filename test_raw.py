@@ -51,7 +51,7 @@ def main(args):
     net.eval()
     # load the pretrained weight if there exists one
     if os.path.isfile(args.ckpt):
-        net.load_state_dict(torch.load(args.ckpt))
+        net.load_state_dict(torch.load(args.ckpt), strict=False)
         print("[INFO] Loaded checkpoint: {}".format(args.ckpt))
     
     print("[INFO] Start data load and preprocessing") 

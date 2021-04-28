@@ -67,6 +67,7 @@ bash train.sh
 The checkpoints will be saved into `./exps/{exp_name}/checkpoint/`. 
 
 ## Test and evaluation 
+### Use your trained model 
 To reconstruct the RAW from JPEG RGB, we need to first save the rendered RGB into disk then do test to recover RAW. 
 Original RAW images are too huge to be directly tested on one 2080 Ti GPU. We provide two ways to test the model. 
 
@@ -92,7 +93,8 @@ Original RAW images are too huge to be directly tested on one 2080 Ti GPU. We pr
   ```bash
   python cal_metrics.py --path=PATH_TO_SAVED_PATCHES
   ```
-
+### Use our pretrained weights
+We also provide our trained model for a reference. The checkpoints are placed in `pretrained/` folder. Specify the correct PATH in `test.sh`, then you can get similar results as our paper. Please note that in the context of ISP, one trained model can only be applied for a specific camera. This is due to the camera-dependent proprietary raw color space and photo-finishing steps. 
 
 
 ## Citation
