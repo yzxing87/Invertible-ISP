@@ -23,6 +23,9 @@ Unprocessed RAW data is a highly valuable image format for image editing and com
 **Figure:** *Our results*
 
 
+## Known issue (10/2021)
+There exists some errors in the bilinear demosaicing implementation of the python library ``colour_demosaicing``. You can fix it through add the 'constant' parameter in convolve method in [this file](https://colour-demosaicing.readthedocs.io/en/latest/_modules/colour_demosaicing/bayer/demosaicing/bilinear.html#demosaicing_CFA_Bayer_bilinear) of your package. Otherwise the demosaicing results will be out of its original range and the trained results will face some incorrect color issues. 
+
 ## Installation
 Clone this repo.
 ```bash
